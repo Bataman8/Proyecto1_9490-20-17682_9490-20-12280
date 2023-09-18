@@ -9,7 +9,7 @@ import passport from "passport";
 import passportMiddleware from './middlewares/passport'
 const app = express();
 
-app.set('port', process.env.PORT || 8080);
+app.set('port', process.env.PORT || 3000);
 
 app.use(morgan('dev'));
 app.use(cors());
